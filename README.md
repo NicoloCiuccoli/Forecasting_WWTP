@@ -31,7 +31,7 @@ This study develops an Early Warning System (EWS) for wastewater treatment plant
 - **Fault Scenario Set**: 1,324 samples simulating critical malfunctions.
 
 ### **Real Dataset**
-- Data collected from December 2021 to March 2022 at Peschiera Borromeo WWTP (2,340 hourly samples).  
+- Data collected from December 2021 to March 2022 at Peschiera Borromeo WWTP (2,340 hourly samples), cleaned of outliers.  
 
 ### **Key Variables**
 | Parameter           | Type     | Unit  | Description                              |
