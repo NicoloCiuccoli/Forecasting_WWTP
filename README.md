@@ -15,7 +15,6 @@ This study develops an Early Warning System (EWS) for wastewater treatment plant
 ---
 
 ## Repository Contents
-- **`dataset/`**: Contains simulated and real-world datasets used for training and testing the predictive models.
 - **`code/`**: Jupyter Notebooks for implementing and evaluating the predictive models:
   - **`MLT_simulated_dataset_and_Fault.ipynb`**: Code for the Multitask Learning (MTL) neural network, including training and results on the simulated dataset.
   - **`LSTM_Simulated_Dataset.ipynb`**: Code for the Long Short-Term Memory (LSTM) network, including training and results on the simulated dataset.
@@ -30,15 +29,16 @@ This study develops an Early Warning System (EWS) for wastewater treatment plant
 - **Training Set**: 1 year of hourly data (8,640 samples) generated under normal WWTP operating conditions.
 - **Fault Scenario Set**: 1,324 samples simulating critical malfunctions.
 
+Visit the following link: 
+
+Submit your access request through Google Drive.
+https://docs.google.com/spreadsheets/d/1Yi8Y6PhKW9X0K567XP-uZbVP3DjXQ47q/edit?usp=sharing&ouid=110763686634102255907&rtpof=true&sd=true
+You will receive an email notification once your request has been reviewed.
+
 ### **Real Dataset**
 - Data collected from December 2021 to March 2022 at Peschiera Borromeo WWTP (2,340 hourly samples), cleaned of outliers.   Due to privacy and ethical concerns, this dataset cannot be shared freely. However, it is available upon request. To request access:
 
-Visit the following link: 
-https://docs.google.com/spreadsheets/d/1J-EFunPsw1_T2dhqT5iSsDLKl4UyaPhj/edit?usp=sharing&ouid=110763686634102255907&rtpof=true&sd=true
-
-Submit your access request through Google Drive.
-
-You will receive an email notification once your request has been reviewed.
+Note: The real dataset cannot be shared due to privacy constraints imposed by the wastewater treatment plant operator
 
 ### **Key Variables**
 | Parameter           | Type     | Unit  | Description                              |
